@@ -1,0 +1,84 @@
+
+<html><head><title>elharam4</title></head><body><br>
+<style type="text/css">body{background:url(https://3.bp.blogspot.com/-5Ma3lIrkPCk/W5p-c>
+<link href= http://fonts.googleapis.com/css?family=Orbitron:700  rel= stylesheet  type=>
+<link href= http://fonts.googleapis.com/css?family=Anton  rel= stylesheet  type= text/c>
+<link href= http://fonts.googleapis.com/css?family=Josefin Sans  rel= stylesheet  type=>
+<body bgcolor="#000000" background =><div class= CenterDiv ><center><SCRIPT>
+
+farbbibliothek = new Array();
+farbbibliothek[0] = new Array("#FF0000","#FF1100","#FF2200","#FF3300","#FF4400","#FF550>
+farbbibliothek[1] = new Array("#00FF00","#000000","#00FF00","#00FF00");
+farbbibliothek[2] = new Array("#00FF00","#FF0000","#00FF00","#00FF00","#00FF00","#00FF0>
+farbbibliothek[3] = new Array("#FF0000","#FF4000","#FF8000","#FFC000","#FFFF00","#C0FF0>
+farbbibliothek[4] = new Array("#FF0000","#EE0000","#DD0000","#CC0000","#BB0000","#AA000>
+farbbibliothek[5] = new Array("#000000","#000000","#000000","#FFFFFF","#FFFFFF","#FFFFF>
+farbbibliothek[6] = new Array("#33CCFF","#33CCCC","#33CC99","#33CC66","#33CC33","#33CC0>
+farbbibliothek[7] = new Array("#00dbdb","#00afdb","#0083db","#0058db","#002cdb","#2c00d>
+farbbibliothek[8] = new Array("#ffd8f4","#ffcff2","#ffc6f0","#ffbded","#ffb4eb","#ffabe>
+farben = farbbibliothek[4];
+function farbschrift()
+{
+for(var i=0 ; i<Buchstabe.length; i++)
+{
+document.all["a"+i].style.color=farben[i];
+}
+farbverlauf();
+}
+function string2array(text)
+{
+Buchstabe = new Array();
+while(farben.length<text.length)
+{
+farben = farben.concat(farben);
+}
+k=0;
+while(k<=text.length)
+{
+Buchstabe[k] = text.charAt(k);
+k++;
+}
+}
+function divserzeugen()
+{
+for(var i=0 ; i<Buchstabe.length; i++)
+{
+document.write("<b><font face= jolly lodger  size= 40  color= hotpink ></a><span id= a">
+}
+farbschrift();
+}
+var a=1;
+function farbverlauf()
+{
+for(var i=0 ; i<farben.length; i++)
+{
+farben[i-1]=farben[i];
+}
+farben[farben.length-1]=farben[-1];
+
+setTimeout("farbschrift()",30);
+}
+var farbsatz=1;
+function farbtauscher()
+{
+farben = farbbibliothek[farbsatz];
+while(farben.length<text.length)
+{
+farben = farben.concat(farben);
+}
+farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001));
+}
+setInterval("farbtauscher()",5000);
+text=  <[ hacked by elharam4]> ;
+</script><span class= newclass >
+<script type="text/javascript">
+string2array(text);
+divserzeugen();
+</script></span>
+
+<center><img src=https://l.top4top.io/p_1721c8vac0.png width=450px height=340px>
+<body onload="init()"></body>
+<script type="text/javascript">
+// Hacked By : CopyRight404rgr
+TypingText = function(element, interval, cursor, finishedCallback) {
+if((typeof document.getElementById == "undefined") || (typeof
